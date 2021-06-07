@@ -1,0 +1,27 @@
+<html lang="en">
+<%- include('partials/head.ejs')  %>
+<body>
+
+    <nav>
+        <div class="site-title">
+            <a href="/"><h1>Blog LongChen</h1></a>
+            <p>LongChen's blog site</p>
+        </div>
+        <ul>
+            <li><a href="/">Blogs</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blogs/create">New Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="about content">
+        <h2>About me</h2>
+        <p>Technology Stacks used: Node.js, Express and MongoDB</p><br>
+        <p>Author: Long Chen</p><br>
+        <p>Run it by 'nodemon app.js'</p>
+    </div>
+
+    <%- include('partials/footer.ejs')  %>
+    
+</body>
+</html>
